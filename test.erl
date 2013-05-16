@@ -55,4 +55,4 @@ loop(Port) ->
     end.
 
 log(Msg, Args) ->
-    io:format("~p: ~p~n", [Msg, Args]).
+    io:format("[~s]: ~p~n", [Msg, Args]).
